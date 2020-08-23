@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Riesi</title>
+  </head>
+  <body>
+    <input id="riesi" type="text">
+    <h1 id="yesriesi" style="display: none;">Yes Riesi</h1>
+    <h1 id="notriesi">Not yes Riesi</h1>
+    <script>
+      document.querySelector("#riesi").addEventListener("input", function() {
+  let v = document.querySelector("#riesi").value;
+  if (v.toLowerCase() == "riesi") {
+    document.querySelector("#yesriesi").style.display = "block";
+    document.querySelector("#notriesi").style.display = "none";
+  } else {
+     document.querySelector("#yesriesi").style.display = "none";
+    document.querySelector("#notriesi").style.display = "block";
+  }
+});
+    </script>
+  </body>
+</html>
