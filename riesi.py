@@ -1,29 +1,3 @@
-frog = '''
-       .---.`               `.---.       
-    `/syhhhyso-           -osyhhhys/`    
-   .syNMdhNNhss/``.---.``/sshNNhdMNys.   
-   +sdMh.`+MNsssssssssssssssNM+`.hMds+   
-   :syNNdhNNhssssssssssssssshNNhdNNys:   
-    /ssyhhhysssssssssssssssssyhhhyss/    
-    .ossssssssssssssssssssssssssssso.    
-   :sssssssssssssssssssssssssssssssss:   
-  /sssssssssssssssssssssssssssssssssss/  
- :sssssssssssssoosssssssoosssssssssssss: 
- osssssssssssssoosssssssoossssssssssssso 
- osssssssssssyyyyhhhhhhhyyyyssssssssssso 
- /yyyyyyhhdmmmmNNNNNNNNNNNmmmmdhhyyyyyy/ 
-  smmmNNNNNNNNNNNNNNNNNNNNNNNNNNNNNmmms  
-   /dNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNd/   
-    `:sdNNNNNNNNNNNNNNNNNNNNNNNNNds:`    
-       `-+shdNNNNNNNNNNNNNNNdhs+-`       
-             `.-:///////:-.`   
-'''
-
-CEND = "\033[0m"
-CRED = "\033[91m"
-CBLUE = "\33[34m"
-CGREEN = "\33[32m"
-
 riesi_ = "riesi"
 not_riesi_ = "not " + riesi_ + "!!"
 
