@@ -1,11 +1,11 @@
 ﻿/* dotnet script riesi.cs */
-bool   reisi = false;
+bool   riesi = false;
 string input;
 
-Console.WriteLine($"Reisi: {reisi.ToString()}");
-Console.Write("Reisi?");
+Console.WriteLine($"Riesi: {riesi.ToString()}");
+Console.Write("Riesi?");
 
 input = Console.ReadLine().ToLower();
 reisi = (input == "y");
 
-Console.WriteLine($"Reisi: {reisi.ToString()}");
+Console.WriteLine($"Riesi: {riesi.ToString()}");
