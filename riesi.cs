@@ -6,6 +6,6 @@ Console.WriteLine($"Riesi: {riesi.ToString()}");
 Console.Write("Riesi?");
 
 input = Console.ReadLine().ToLower();
-reisi = (input == "y");
+riesi = (input == "y");
 
 Console.WriteLine($"Riesi: {riesi.ToString()}");
